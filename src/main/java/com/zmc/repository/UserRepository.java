@@ -15,7 +15,7 @@ import java.util.List;
  * RepositoryRestResource定制模块的路径 localhost：port/user
  * 若这个不配置 默认为localhost：port/users  一般是实体类名小写并加s
  *
- * http://localhost:8088/users?page=0&size=2 第一页 每页为2条数据
+ * http://localhost:8088/users?page=0&size=2 第一页 每页为2条数据 页码是从0开始的！！！
  *
  * http://localhost:8088/users/7 post {"username":"zmc","password":"123"} add
  * http://localhost:8088/users/7 put {"username":"zmc","password":"zmc"} update
